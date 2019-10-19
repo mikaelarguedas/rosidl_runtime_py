@@ -23,6 +23,7 @@ from .get_interfaces import get_interfaces
 from .get_interfaces import get_message_interfaces
 from .get_interfaces import get_service_interfaces
 from .import_message import import_message_from_namespaced_type
+from .import_type_support_impl import import_type_support
 from .set_message import set_message_fields
 
 
@@ -35,6 +36,7 @@ __all__ = [
     'get_interfaces',
     'get_message_slot_types',
     'import_message_from_namespaced_type',
+    'import_type_support',
     'message_to_csv',
     'message_to_ordereddict',
     'message_to_yaml',
