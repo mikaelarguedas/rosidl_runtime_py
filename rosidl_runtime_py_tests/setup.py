@@ -3,15 +3,15 @@ from setuptools import setup
 
 setup(
     name='rosidl_runtime_py_tests',
-    version='0.7.1',
+    version='0.8.0',
     packages=find_packages(exclude=['test']),
     zip_safe=False,
     author='Dirk Thomas',
     author_email='dthomas@osrfoundation.org',
     maintainer='Jacob Perron',
     maintainer_email='jacob@openrobotics.org',
-    url='https://github.com/ros2/rosidl_python/tree/master/rosidl_runtime_py_tests',
-    download_url='https://github.com/ros2/rosidl_python/releases',
+    url='https://github.com/ros2/rosidl_runtime_py/tree/master/rosidl_runtime_py_tests',
+    download_url='https://github.com/ros2/rosidl_runtime_py/releases',
     keywords=[],
     classifiers=[
         'Environment :: Console',
